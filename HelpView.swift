@@ -1,21 +1,21 @@
 //
-//  SecondView.swift
+//  HelpView.swift
 //  Navigation
 //
-//  Created by Manjot Kaur on 4/23/25.
+//  Created by Manjot Kaur on 4/24/25.
 //
 
 import SwiftUI
 
-struct SecondView: View {
+struct HelpView: View {
     var body: some View {
-        Text("You've arrived to the about page!")
+        Text("You've arrived to the Help View!")
             .foregroundColor(Color.purple)
             .multilineTextAlignment(.center)
-        Text("🥰")
+        Text("😋")
     }
 }
 
 #Preview {
-    SecondView()
+    HelpView()
 }

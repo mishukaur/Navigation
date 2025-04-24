@@ -31,6 +31,12 @@ struct ContentView: View {
                     NavigationLink(destination: SecondView()) {
                         Text("About")
                     }
+                    NavigationLink(destination: ContactView()) {
+                        Text("Contact")
+                    }
+                    NavigationLink(destination: HelpView()) {
+                        Text("Help")
+                    }
                 }
             }
             .navigationTitle("Home")

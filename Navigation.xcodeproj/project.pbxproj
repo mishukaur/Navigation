@@ -6,7 +6,14 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		CE299A6E2DB9F845005C0490 /* ContactView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE299A6D2DB9F845005C0490 /* ContactView.swift */; };
+		CE299A702DB9F862005C0490 /* HelpView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE299A6F2DB9F862005C0490 /* HelpView.swift */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXFileReference section */
+		CE299A6D2DB9F845005C0490 /* ContactView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactView.swift; sourceTree = "<group>"; };
+		CE299A6F2DB9F862005C0490 /* HelpView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HelpView.swift; sourceTree = "<group>"; };
 		CE767D342DB9B63F0018482E /* Navigation.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Navigation.app; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -32,6 +39,8 @@
 		CE767D2B2DB9B63F0018482E = {
 			isa = PBXGroup;
 			children = (
+				CE299A6D2DB9F845005C0490 /* ContactView.swift */,
+				CE299A6F2DB9F862005C0490 /* HelpView.swift */,
 				CE767D362DB9B63F0018482E /* Navigation */,
 				CE767D352DB9B63F0018482E /* Products */,
 			);
@@ -119,6 +128,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CE299A702DB9F862005C0490 /* HelpView.swift in Sources */,
+				CE299A6E2DB9F845005C0490 /* ContactView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
